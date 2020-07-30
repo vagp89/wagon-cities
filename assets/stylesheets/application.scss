@@ -1,7 +1,31 @@
 body {
-  font-family: Helvetica;
+  color: white;
+  background-color: black;
 }
+
 .app {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start
+  }
+
+.city {
+border-right:: 3px solid #f8edeb;
+border-left: 3px solid #f8edeb;
+border-top: 3px solid #f8edeb;
+height: 60px;
+cursor: pointer;
+}
+
+.cityselected{
+  border: 5px solid #f0a500;
+}
+
+.image{
+  width: 92rem;
+  height: 66rem;
+  position: -webkit-sticky !important;
+  align-self: flex-end;
+
 }
